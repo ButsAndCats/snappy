@@ -1,0 +1,26 @@
+{
+  "name": "snappy",
+  "version": "1.0.0",
+  "description": "Shopify react theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ButsAndCats/snappy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ButsAndCats/snappy/issues"
+  },
+  "homepage": "https://github.com/ButsAndCats/snappy#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.8.0",
+    "@typescript-eslint/parser": "^3.8.0",
+    "eslint": "^7.6.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-react": "^7.20.5"
+  }
+}
