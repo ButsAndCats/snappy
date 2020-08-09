@@ -4,7 +4,7 @@
   "description": "Shopify react theme",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "eslint 'src/**/*.tsx' --fix",
     "webpack:watch": "webpack -w",
     "webpack:build": "webpack",
     "build": "webpack && npm run theme:deploy && npm run theme:open",

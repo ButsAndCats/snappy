@@ -1,13 +1,13 @@
-import * as React from "react";
+import * as React from 'react';
 import {
-  Link
-} from "react-router-dom";
+  Link,
+} from 'react-router-dom';
 
 export const Header: React.FC<{
   shop: {
     name: string;
   }
-}> = ({ shop }) => (
+}> = ({shop}) => (
   <header>
     <p>{shop?.name}</p>
     <Link to="/">Home</Link>
@@ -23,4 +23,4 @@ export const Header: React.FC<{
     <Link to="/cart">Cart</Link>
     <Link to="/dsafadsf">404</Link>
   </header>
-)
+);
