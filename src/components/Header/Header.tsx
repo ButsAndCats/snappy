@@ -3,8 +3,13 @@ import {
   Link
 } from "react-router-dom";
 
-export const Header: React.FC = () => (
+export const Header: React.FC<{
+  shop: {
+    name: string;
+  }
+}> = ({ shop }) => (
   <header>
+    <p>{shop?.name}</p>
     <Link to="/">Home</Link>
     <Link to="/collections">Collections</Link>
     <Link to="/collections/all">All</Link>

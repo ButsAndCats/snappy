@@ -1,5 +1,5 @@
 const path = require('path');
-const webpack = require('webpack')
+const Dotenv = require('dotenv-webpack');
 const CopyPlugin = require('copy-webpack-plugin');
 const LiveReloadPlugin = require('webpack-livereload-plugin');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
@@ -39,6 +39,9 @@ module.exports = {
         { from: './src/theme', to: '../../dist' },
       ],
     }),
+     new Dotenv({
+       safe: true,
+     })
     // new BundleAnalyzerPlugin()
   ],
   resolve: {
