@@ -1,0 +1,10 @@
+development: 
+  password: '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'
+  theme: 107905450146
+  store: 'snappy-theme.myshopify.com'
+  ignore_files: 
+    - '*.gif'
+    - '*.jpg'
+    - 'config/settings_data.json'
+  
+  
