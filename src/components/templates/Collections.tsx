@@ -1,5 +1,5 @@
 import * as React from "react"
 
-export const CollectionsTemplate: React.FC = () => (
+export const Collections: React.FC = () => (
   <p>collections</p>
 )

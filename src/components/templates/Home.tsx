@@ -1,5 +1,5 @@
 import * as React from "react"
 
-export const IndexTemplate: React.FC = () => (
+export const Home: React.FC = () => (
   <p>index</p>
 )
